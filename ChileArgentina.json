@@ -5,7 +5,7 @@
             "nFollowers": 10,
             "Name": "Argetina",
             "DemandParam": {
-                "Alpha": 133000.0,
+                "Alpha": 7100.0,
                 "Beta": 0.05
             },
             "TransportationCosts": [
@@ -96,7 +96,7 @@
             "nFollowers": 10,
             "Name": "Chile",
             "DemandParam": {
-                "Alpha": 69320.0,
+                "Alpha": 2147.0,
                 "Beta": 0.03
             },
             "TransportationCosts": [
