@@ -1,5 +1,5 @@
 # EPECInstances
-This repository contains instances for [https://github.com/ssriram1992/EPECsolve](EPEC).
+This repository contains EPEC instances for testing algorithms in [https://github.com/ssriram1992/EPECsolve](https://github.com/ssriram1992/EPECsolve).
 *Manuscript in preparation. Link will be shared once ready*
 
 ## A_345
