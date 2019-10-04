@@ -1,0 +1,143 @@
+{
+    "nCountries": 3,
+    "Countries": [
+        {
+            "nFollowers": 2,
+            "Name": "Country_37",
+            "DemandParam": {
+                "Alpha": 300.0,
+                "Beta": 0.5
+            },
+            "TransportationCosts": [
+                0.0,
+                1.0,
+                1.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 240.0,
+                "TaxRevenue": false,
+                "TaxationType": 1
+            },
+            "Followers": {
+                "Names": [
+                    "C13",
+                    "S13"
+                ],
+                "Capacities": [
+                    170.0,
+                    50.0
+                ],
+                "LinearCosts": [
+                    220.0,
+                    275.0
+                ],
+                "QuadraticCosts": [
+                    0.2,
+                    0.0
+                ],
+                "EmissionCosts": [
+                    300.0,
+                    50.0
+                ],
+                "TaxCaps": [
+                    500.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "nFollowers": 2,
+            "Name": "Country_229",
+            "DemandParam": {
+                "Alpha": 325.0,
+                "Beta": 0.6
+            },
+            "TransportationCosts": [
+                1.0,
+                0.0,
+                1.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 260.0,
+                "TaxRevenue": false,
+                "TaxationType": 1
+            },
+            "Followers": {
+                "Names": [
+                    "G157",
+                    "S109"
+                ],
+                "Capacities": [
+                    170.0,
+                    170.0
+                ],
+                "LinearCosts": [
+                    200.0,
+                    250.0
+                ],
+                "QuadraticCosts": [
+                    0.3,
+                    0.1
+                ],
+                "EmissionCosts": [
+                    100.0,
+                    50.0
+                ],
+                "TaxCaps": [
+                    100.0,
+                    50.0
+                ]
+            }
+        },
+        {
+            "nFollowers": 2,
+            "Name": "Country_94",
+            "DemandParam": {
+                "Alpha": 325.0,
+                "Beta": 0.6
+            },
+            "TransportationCosts": [
+                1.0,
+                1.0,
+                0.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 292.50000000000008,
+                "TaxRevenue": true,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "G70",
+                    "S46"
+                ],
+                "Capacities": [
+                    200.0,
+                    130.0
+                ],
+                "LinearCosts": [
+                    200.0,
+                    250.0
+                ],
+                "QuadraticCosts": [
+                    0.3,
+                    0.1
+                ],
+                "EmissionCosts": [
+                    100.0,
+                    25.0
+                ],
+                "TaxCaps": [
+                    100.0,
+                    50.0
+                ]
+            }
+        }
+    ]
+}
