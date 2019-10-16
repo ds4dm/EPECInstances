@@ -1,0 +1,107 @@
+{
+    "nCountries": 2,
+    "Countries": [
+        {
+            "nFollowers": 2,
+            "Name": "Argentina",
+            "DemandParam": {
+                "Alpha": 800.0,
+                "Beta": 3.11
+            },
+            "TransportationCosts": [
+                0.0,
+                1.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": 100.0,
+                "ExportLimit": 100.0,
+                "PriceLimit": -1.0,
+                "TaxRevenue": false,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "Gas",
+                    "Hydro"
+                ],
+                "Capacities": [
+                    103.0,
+                    37.0
+                ],
+                "LinearCosts": [
+                    55.0,
+                    0.0
+                ],
+                "QuadraticCosts": [
+                    0.0,
+                    0.0
+                ],
+                "EmissionCosts": [
+                    110.0,
+                    0.0
+                ],
+                "TaxCaps": [
+                    0.5,
+                    0.5
+                ]
+            }
+        },
+        {
+            "nFollowers": 4,
+            "Name": "Chile",
+            "DemandParam": {
+                "Alpha": 150.0,
+                "Beta": 1.0
+            },
+            "TransportationCosts": [
+                1.0,
+                0.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": 100.0,
+                "ExportLimit": 100.0,
+                "PriceLimit": 90.0,
+                "TaxRevenue": false,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "Coal",
+                    "Gas",
+                    "Hydro",
+                    "Non-conv renewable"
+                ],
+                "Capacities": [
+                    27.0,
+                    23.0,
+                    22.0,
+                    9.0
+                ],
+                "LinearCosts": [
+                    30.0,
+                    52.0,
+                    0.0,
+                    0.0
+                ],
+                "QuadraticCosts": [
+                    0.2,
+                    0.1,
+                    0.0,
+                    0.0
+                ],
+                "EmissionCosts": [
+                    200.0,
+                    110.0,
+                    0.0,
+                    0.0
+                ],
+                "TaxCaps": [
+                    0.65,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    ]
+}
