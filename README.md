@@ -1,5 +1,10 @@
-# EPECInstances
- This repository contains EPEC instances for testing algorithms of [EPECSolve](https://github.com/ssriram1992/EPECsolve). The pre-print is available on [arXiv](https://arxiv.org/abs/1910.06452).
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+# EPECsolve
+This repository is part of the [EPECSolve](https://github.com/ssriram1992/EPECsolve/) project, and contains the instances on which we perform tests.
+- [Code](https://github.com/ssriram1992/EPECsolve/)
+- [Instances](https://github.com/ds4dm/EPECInstances) with detailed [mathematical description](https://github.com/ds4dm/EPECInstances/blob/master/Description.pdf)
+- [arXiv](https://arxiv.org/abs/1910.06452) pre-print
  
 Goverments act as Stackelberg leaders by trading energy, with the aim of minimizing their emissions, and eventually to maximize tax incomes. Within each country, energy producers act as Stackelberg followers and play a Nash game between themselves, aiming to maximize their profits. 
 
