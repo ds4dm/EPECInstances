@@ -6,3 +6,7 @@ Goverments act as Stackelberg leaders by trading energy, with the aim of minimiz
 
  ## A_345
 Contains the first set of instances with 3-4-5 contries (50 for each order). A full description of these instances is available [here](Description.pdf)
+
+
+ ## ChileArgentina
+This instance is based on real data from the energy trade between Chile and Argentina. Further information and references will be released.
