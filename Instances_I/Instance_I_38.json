@@ -1,0 +1,107 @@
+{
+    "nCountries": 2,
+    "Countries": [
+        {
+            "nFollowers": 3,
+            "Name": "Country_732_Red_1611767200485",
+            "DemandParam": {
+                "Alpha": 375.0,
+                "Beta": 0.75
+            },
+            "TransportationCosts": [
+                0.0,
+                1.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 337.50000000000008,
+                "TaxRevenue": true,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "C488",
+                    "G610",
+                    "S1098"
+                ],
+                "Capacities": [
+                    130.0,
+                    20000.0,
+                    100.0
+                ],
+                "LinearCosts": [
+                    150.0,
+                    200.0,
+                    220.0
+                ],
+                "QuadraticCosts": [
+                    0.6,
+                    0.55,
+                    0.5
+                ],
+                "EmissionCosts": [
+                    300.0,
+                    100.0,
+                    50.0
+                ],
+                "TaxCaps": [
+                    500.0,
+                    100.0,
+                    25.0
+                ]
+            }
+        },
+        {
+            "nFollowers": 3,
+            "Name": "Country_2802_Blue_1611768131009",
+            "DemandParam": {
+                "Alpha": 450.0,
+                "Beta": 0.9
+            },
+            "TransportationCosts": [
+                1.0,
+                0.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 405.00000000000008,
+                "TaxRevenue": true,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "C1868",
+                    "G2335",
+                    "S4203"
+                ],
+                "Capacities": [
+                    100.0,
+                    200.0,
+                    50.0
+                ],
+                "LinearCosts": [
+                    275.0,
+                    290.0,
+                    300.0
+                ],
+                "QuadraticCosts": [
+                    0.2,
+                    0.1,
+                    0.0
+                ],
+                "EmissionCosts": [
+                    300.0,
+                    200.0,
+                    50.0
+                ],
+                "TaxCaps": [
+                    300.0,
+                    200.0,
+                    50.0
+                ]
+            }
+        }
+    ]
+}

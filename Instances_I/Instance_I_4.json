@@ -1,0 +1,107 @@
+{
+    "nCountries": 2,
+    "Countries": [
+        {
+            "nFollowers": 3,
+            "Name": "Country_293_Yellow_1611767034022",
+            "DemandParam": {
+                "Alpha": 375.0,
+                "Beta": 0.9
+            },
+            "TransportationCosts": [
+                0.0,
+                1.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 300.0,
+                "TaxRevenue": true,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "S438",
+                    "S439",
+                    "S440"
+                ],
+                "Capacities": [
+                    1000.0,
+                    1000.0,
+                    1000.0
+                ],
+                "LinearCosts": [
+                    200.0,
+                    200.0,
+                    200.0
+                ],
+                "QuadraticCosts": [
+                    0.55,
+                    0.55,
+                    0.55
+                ],
+                "EmissionCosts": [
+                    25.0,
+                    50.0,
+                    50.0
+                ],
+                "TaxCaps": [
+                    25.0,
+                    50.0,
+                    50.0
+                ]
+            }
+        },
+        {
+            "nFollowers": 3,
+            "Name": "Country_225_Black_1611767023478",
+            "DemandParam": {
+                "Alpha": 375.0,
+                "Beta": 0.6
+            },
+            "TransportationCosts": [
+                1.0,
+                0.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 318.75000000000008,
+                "TaxRevenue": true,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "G189",
+                    "S335",
+                    "S336"
+                ],
+                "Capacities": [
+                    50.0,
+                    200.0,
+                    200.0
+                ],
+                "LinearCosts": [
+                    250.0,
+                    275.0,
+                    275.0
+                ],
+                "QuadraticCosts": [
+                    0.3,
+                    0.2,
+                    0.2
+                ],
+                "EmissionCosts": [
+                    200.0,
+                    50.0,
+                    25.0
+                ],
+                "TaxCaps": [
+                    100.0,
+                    25.0,
+                    25.0
+                ]
+            }
+        }
+    ]
+}

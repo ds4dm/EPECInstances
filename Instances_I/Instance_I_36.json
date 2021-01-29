@@ -1,0 +1,107 @@
+{
+    "nCountries": 2,
+    "Countries": [
+        {
+            "nFollowers": 3,
+            "Name": "Country_319_Black_1611767036524",
+            "DemandParam": {
+                "Alpha": 375.0,
+                "Beta": 0.5
+            },
+            "TransportationCosts": [
+                0.0,
+                1.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 337.50000000000008,
+                "TaxRevenue": true,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "C213",
+                    "G266",
+                    "G267"
+                ],
+                "Capacities": [
+                    100.0,
+                    20000.0,
+                    20000.0
+                ],
+                "LinearCosts": [
+                    250.0,
+                    250.0,
+                    275.0
+                ],
+                "QuadraticCosts": [
+                    0.3,
+                    0.3,
+                    0.2
+                ],
+                "EmissionCosts": [
+                    500.0,
+                    100.0,
+                    100.0
+                ],
+                "TaxCaps": [
+                    300.0,
+                    100.0,
+                    100.0
+                ]
+            }
+        },
+        {
+            "nFollowers": 3,
+            "Name": "Country_2051_Black_1611767842669",
+            "DemandParam": {
+                "Alpha": 350.0,
+                "Beta": 0.5
+            },
+            "TransportationCosts": [
+                1.0,
+                0.0
+            ],
+            "LeaderParam": {
+                "ImportLimit": -1.0,
+                "ExportLimit": -1.0,
+                "PriceLimit": 315.00000000000008,
+                "TaxRevenue": true,
+                "TaxationType": 2
+            },
+            "Followers": {
+                "Names": [
+                    "S3075",
+                    "S3076",
+                    "S3077"
+                ],
+                "Capacities": [
+                    1050.0,
+                    1050.0,
+                    1050.0
+                ],
+                "LinearCosts": [
+                    290.0,
+                    290.0,
+                    290.0
+                ],
+                "QuadraticCosts": [
+                    0.1,
+                    0.1,
+                    0.1
+                ],
+                "EmissionCosts": [
+                    25.0,
+                    50.0,
+                    50.0
+                ],
+                "TaxCaps": [
+                    50.0,
+                    25.0,
+                    50.0
+                ]
+            }
+        }
+    ]
+}
