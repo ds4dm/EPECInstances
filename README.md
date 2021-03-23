@@ -17,3 +17,4 @@ We generated three instances sets for our computations.
 - _InstanceSetB_ contains 50 instances with strictly 7 countries. These instances were selected if the full enumeration algorithm was not able to solve them within 10 second on a single core machine.
 - _InstanceSetInsights_ contains 50 instances with 2 countries with 3 followers each. Such instances are useful to derive managerial insights from our model 
 - _ChileArgentina_ contains the ChileArgentina case-study data and instance generator
+- _ResultParser.py_ produces the tables that can be found in the [arXiv](https://arxiv.org/abs/1910.06452) pre-print (and the paper)
