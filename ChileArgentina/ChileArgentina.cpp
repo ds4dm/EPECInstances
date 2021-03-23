@@ -54,26 +54,43 @@ Models::EPECInstance ChileArgentinaInstance() {
   TrCo2(1, 0) = 1;
   TrCo2(0, 1) = 1;
   Models::EPECInstance Instance2({Argentina, Chile}, TrCo2);
-  Instance2.save("dat/ChileArgentina2_Q");
+  Instance2.save("dat/ChileArg/ChileArgentina");
   return Instance2;
 }
 
 void solve(Models::EPECInstance instance) {
-  GRBEnv env;
-  Models::EPEC epec(&env);
-  const unsigned int nCountr = instance.Countries.size();
-  for (unsigned int i = 0; i < nCountr; i++)
-    epec.addCountry(instance.Countries.at(i));
-  epec.addTranspCosts(instance.TransportationCosts);
-  epec.finalize();
-  epec.setAlgorithm(Game::EPECalgorithm::fullEnumeration);
-  epec.setAlgorithm(Game::EPECalgorithm::innerApproximation);
-  epec.setAggressiveness(1);
-  epec.setAddPolyMethod(Game::EPECAddPolyMethod::random);
-  std::cout << "Starting to solve...\n";
-  epec.setNumThreads(4);
-  epec.findNashEq();
-  epec.writeSolution(2, "dat/ChileArgentinaCarb");
+  std::vector<int> RenewableCapacities = {9, 30, 50};
+  for (unsigned int renew = 0; renew < RenewableCapacities.size(); ++renew) {
+    for (unsigned int trade = 0; trade < 2; ++trade) {
+      GRBEnv env;
+      Models::EPEC epec(&env);
+      const unsigned int nCountr = instance.Countries.size();
+      // Change Chile renewables capacity with the renew parameter
+      instance.Countries.at(1).FollowerParam.capacities.at(3) =
+          RenewableCapacities.at(renew);
+      // Change tax and trade params
+      instance.Countries.at(0).LeaderParam.tradeAllowed = trade;
+      instance.Countries.at(1).LeaderParam.tradeAllowed = trade;
+      instance.Countries.at(0).LeaderParam.tax_revenue = 0;
+      instance.Countries.at(1).LeaderParam.tax_revenue = 0;
+      for (unsigned int i = 0; i < nCountr; i++)
+        epec.addCountry(instance.Countries.at(i));
+      epec.addTranspCosts(instance.TransportationCosts);
+      epec.finalize();
+      epec.setAlgorithm(Game::EPECalgorithm::fullEnumeration);
+      epec.setAlgorithm(Game::EPECalgorithm::innerApproximation);
+      epec.setAggressiveness(1);
+      epec.setAddPolyMethod(Game::EPECAddPolyMethod::random);
+      std::cout << "Solving Renewables=" +
+                       std::to_string(RenewableCapacities.at(renew)) +
+                       " - Trade=" + std::to_string(trade) + " - TaxRevenue=0";
+      epec.setNumThreads(4);
+      epec.findNashEq();
+      epec.writeSolution(
+          2, "dat/ChileArg/ChileArgentina_Trade-" + std::to_string(trade) +
+                 "_Renew-" + std::to_string(RenewableCapacities.at(renew)));
+    }
+  }
 }
 
 int main() {
