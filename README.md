@@ -9,14 +9,11 @@ This repository is part of the [EPECSolve](https://github.com/ssriram1992/EPECso
 
 Goverments act as Stackelberg leaders by trading energy, with the aim of minimizing their emissions, and eventually to maximize tax incomes. Within each country, energy producers act as Stackelberg followers and play a Nash game between themselves, aiming to maximize their profits.  A full description of these instances is available [here](Description.pdf)
 
- ## A_345
-Contains the first set of instances with 3-4-5 contries (50 for each order). 
 
-## H
-Contsins the set of harder instances.
+## Folder organization
 
-## I
-Contains the set of instances with 2 countries, 3 followers each, useful to derive strategic insights.
-
-## ChileArgentina
-This instance is based on real data from the energy trade between Chile and Argentina. Further information and references will be released.
+We generated three instances sets for our computations. 
+- _InstanceSetA_ contains 149 instances where there are 3 to 5 countries 
+- _InstanceSetB_ contains 50 instances with strictly 7 countries. These instances were selected if the full enumeration algorithm was not able to solve them within 10 second on a single core machine.
+- _InstanceSetInsights_ contains 50 instances with 2 countries with 3 followers each. Such instances are useful to derive managerial insights from our model 
+- _ChileArgentina_ contains the ChileArgentina case-study data and instance generator
