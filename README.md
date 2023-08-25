@@ -1,7 +1,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # EPECsolve
-This repository is part of the [EPECSolve](https://github.com/ssriram1992/EPECsolve/) project, and contains the instances on which we perform tests.
+This repository is part of the [EPECSolve](https://github.com/ssriram1992/EPECsolve/) project, and contains the data and instances of the paper _When Nash Meets Stackelberg_ (to appear, Management Science).
 - [Code](https://github.com/ssriram1992/EPECsolve/)
 - [Instances](https://github.com/ds4dm/EPECInstances)
 - [arXiv](https://arxiv.org/abs/1910.06452) pre-print with the detailed mathematical description of our instances
@@ -18,3 +18,4 @@ We generated three instances sets for our computations.
 - _InstanceSetInsights_ contains 50 instances with 2 countries with 3 followers each. Such instances are useful to derive managerial insights from our model 
 - _ChileArgentina_ contains the ChileArgentina case-study data and instance generator
 - _ResultParser.py_ produces the tables that can be found in the [arXiv](https://arxiv.org/abs/1910.06452) pre-print (and the paper)
+- _PaperTables.xlxs_ contains the aggregate results of our tests and the content of the tables reported in our paper.
