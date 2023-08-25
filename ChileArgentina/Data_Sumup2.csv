@@ -1,0 +1,10 @@
+;Fuel consumption;fuel cost;Total Marginal cost (US/MWh);Capacity Factor;Installed capacity (MWh);;Capacities (GWh);;Linear costs (Normalized);Quadratic costs (GWh);Emission Cost;Variable cost (Linear-mwh-no normalization);Quadratic cost (mwh);Installed capacity (MWh/Y * CapacityFactor);
+;;;;;Chile;Argentina;Chile;Argentina;;;;;;Chile;Argentina
+Biomass;1;1;8,2;0,5;447;0;1958;0;37,89;2,5792;195;7,2;0,000003;1957860;0
+Coal;0,385;120;105,4;0,6;5153;0;27084;0;311,58;1,0139;200;59,2;0,000001;27084168;0
+Wind;0;0;1;0,295;1752;1063;4528;2747;5,26;1,2698;0;1;0,000001;4527518;2747005
+Gas (CC+CT);8;12,5;190;0,58;4446;18323;22589;93095;473,68;4,1545;110;90;0,000004;22589237;93095498
+Geo;0;0;1;0,7;40;0;245;0;5,26;21,5659;0;1;0,000022;245280;0
+Hydro1;0;0;1;0,37;6681;11288;21654;36587;5,26;0,0138;0;1;0,000000;21654457;36586666
+Diesel;0,25;630;347,5;0,1;3137;1808;2748;1584;1000,00;76,6545;180;190;0,000077;2748012;1583808
+Solar;0;0;5;0,2;2576;316;4513;554;26,32;0,9001;0;5;0,000001;4513152;553632
